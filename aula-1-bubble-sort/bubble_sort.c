@@ -74,7 +74,7 @@ que o número gerado esteja no intervalo de 0 até 'n', incluindo ele mesmo. */
  }
 
  int main(){
-    int n=10;
+    int n=4;
     int *numeros = gerar_numeros_aleatorios(n);
     printf("\nNumeros gerados: \n");
     imprimir_vetor(numeros, n);
